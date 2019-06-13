@@ -1,0 +1,187 @@
+/*Universal Styles*/
+ 
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: #FAFAFA;
+}
+p {
+    font-size: 18px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header Styles */
+
+.header {
+    width: 100%;
+    position: absolute;
+}
+.wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.top-bar {
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+.links {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.links a {
+    color: #5EBD8B;
+    font-weight: bold;
+}
+.logo {
+    color: #fff;
+}
+.icon {
+    font-size: 20px;
+    color: #5EBD8B;
+    padding: 5px;
+}
+.sec-5 a {
+    color: rgb(124, 124, 124);
+}
+/* Hero Section */
+
+.hero {
+    background: linear-gradient(to top right, #564A76, #753F78);
+    height: 500px;  
+    align-items: flex-end;
+}
+.article {
+    width: 50%;
+    padding: 50px;
+}
+.article1 {
+    padding-left: 0;
+    color: #fff;
+}
+.article2 {
+    padding-right: 0;
+    border-left: 1px solid gray;
+    color: #B3A1BC;
+    font-weight: bold;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.hero-btn {
+    color: #fff;
+    background: #5EBD8B;
+    border: none;
+}
+.btn1 {
+    color: black;
+    background: #fff;
+    border: 1px solid black;
+}
+.btn2 {
+    width: 200px;
+}
+
+/* Section 2 Styles */
+
+.sec-2 {
+    box-shadow: 0 2px 1px gainsboro;
+}
+.sec-2 h2 {
+    color: black;
+    padding: 20px 0;
+}
+.sec-2 article {
+    color: rgb(124, 124, 124);
+}
+.list li {
+    padding: 10px;
+    margin-left: 30px;
+}
+.demo-list li {
+    list-style-image: url("../media/right.png");
+}
+
+/* Working with images */
+
+.image {
+    width: 30%;
+}
+.img-text {
+    width: 70%;
+    padding: 70px;
+    padding-right: 0;
+}
+.bg-col {
+    background-color: #fff;
+    margin-top: 100px;
+    align-items: center;
+    box-shadow: 0 2px 1px gainsboro;
+    padding: 0;
+}
+
+.sec-4 {
+    justify-content: center;
+    margin: 50px;
+}
+.sec-5 {
+    background: #fff;
+    box-shadow: 0 2px 1px gainsboro;
+}
+.sec-5 h2 {
+    color: black;
+}
+.sec-5 p {
+    color: rgb(124, 124, 124);
+}
+
+/* Footer Styles */
+
+footer {
+    color: rgb(124, 124, 124);
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.input-area input {
+    padding: 5px;
+    margin: 20px 20px 20px 0;
+}
+.input-area textarea {
+    width: 400px;
+    resize: none;
+}
