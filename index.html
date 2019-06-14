@@ -1,212 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Prism | Flexbox Project</title>
-    <meta charset="UTF-8" />
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/3fe1f58858.js"></script>
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/stylesheets/reset.css ">
-    <link href="assets/stylesheets/style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="wrapper">
-        <nav class="nav flex">
-          <a href="#">
-            <h1 class="logo">Prism</h1>
-          </a>
-          <ul class="nav-menu flex">
-            <li><a class="menu-item" href="#">Home</a></li>
-            <li><a class="menu-item" href="#">About</a></li>
-            <li><a class="menu-item" href="#">Generic</a></li>
-            <li><a class="menu-item" href="#">Elements</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="wrapper flex">
-          <div class="col col1">
-            <h2 class="hero-heading">
-              Welcome to Prism, a free responsive site template by
-              <span class="uppercase">templated</span>.
-            </h2>
-          </div>
-          <div class="col col2">
-            <p class="hero-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
-              quam fuga ipsum, magni reiciendis eos facilis omni.
-            </p>
-            <button class="btn btn-primary">Get started</button>
-          </div>
-        </div>
-      </section>
-      <!-- Magna Section -->
-      <section class="padding">
-        <div class="wrapper flex">
-          <div class="col col1">
-            <article>
-              <h3 class="magna-heading">Magna feugiat adipisicing</h3>
-              <p class="magna-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                natus maiores velit enim ducimus ratione porro soluta corrupti
-                doloribus perspiciatis voluptatem libero hic molestias impedit
-                accusamus totam, aspernatur aut! Dicta.
-              </p>
-              <button class="btn btn-secondary">Learn More</button>
-            </article>
-          </div>
-          <div class="col col2">
-            <ul class="magna-list">
-              <li class="magna-item">Lorem ipsum dolor sit amet</li>
-              <li class="magna-item">Consectetur adipisicing elit</li>
-              <li class="magna-item">Maiores velit enim ducimus</li>
-              <li class="magna-item">Perspiciatis voluptatem libero hic</li>
-              <li class="magna-item">Accusamus totam, aspernatur aut!</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- Article Section -->
-      <section class="padding article">
-        <div class="wrapper">
-          <article class="flex article-container">
-            <div class="article-img">
-              <img
-                class="img-responsive"
-                src="assets/media/pic01.jpg"
-                alt="pic01"
-              />
+    <head>
+        <meta charset="UTF-8">
+        <title>FlexBox Project 2</title>
+        <link rel="stylesheet" href="./assets/stylesheets/reset.css">
+        <link rel="stylesheet" href="./assets/stylesheets/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                <nav class="top-bar flex">
+                    <a href="index.html"><h2 class="logo">Prism</h2></a>
+                    <div class="links">
+                        <a href="#">HOME</a>
+                        <a href="#">ABOUT</a>
+                        <a href="#">GENERIC</a>
+                        <a href="#">ELEMENTS</a>
+                    </div>
+                </nav>
             </div>
-            <div class="article-description">
-              <h4 class="article-heading">Ipsum phretera tempus</h4>
-              <p class="article-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Doloremque, veniam? Beatae sapiente corrupti perferendis.
-              </p>
-              <button class="btn btn-secondary">Details</button>
-            </div>
-          </article>
-          <article class="flex article-container">
-            <div class="article-img">
-              <img
-                class="img-responsive"
-                src="assets/media/pic02.jpg"
-                alt="pic01"
-              />
-            </div>
-            <div class="article-description">
-              <h4 class="article-heading">Ipsum phretera tempus</h4>
-              <p class="article-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Doloremque, veniam? Beatae sapiente corrupti perferendis.
-              </p>
-              <button class="btn btn-secondary">Details</button>
-            </div>
-          </article>
-          <article class="flex article-container">
-            <div class="article-img">
-              <img
-                class="img-responsive"
-                src="assets/media/pic03.jpg"
-                alt="pic01"
-              />
-            </div>
-            <div class="article-description">
-              <h4 class="article-heading">Ipsum phretera tempus</h4>
-              <p class="article-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Doloremque, veniam? Beatae sapiente corrupti perferendis.
-              </p>
-              <button class="btn btn-secondary">Details</button>
-            </div>
-          </article>
-          <div class="text-center">
-            <button class="btn btn-secondary">ipsum magna tempus</button>
-          </div>
-        </div>
-      </section>
-      <!-- Contact -->
-      <section class="contact padding">
-        <div class="wrapper flex">
-          <div class="col col1">
-            <h3 class="contact-heading">Orci malesuada</h3>
-            <p class="contact-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-              a voluptatem quos quibusdam.
-            </p>
-            <form action="">
-              <div class="flex">
-                <input
-                  class="form-control input-field"
-                  placeholder="Name"
-                  type="text"
-                />
-                <input
-                  class="form-control input-field"
-                  placeholder="Email"
-                  type="email"
-                />
-              </div>
-              <textarea
-                class="form-control"
-                placeholder="Message"
-                name=""
-                id=""
-                rows="7"
-              ></textarea>
-              <input
-                type="submit"
-                value="send message"
-                class="btn btn-secondary"
-              />
-            </form>
-          </div>
-          <div class="col col2">
-            <ul class="contact-list">
-              <li class="contact-list-item">
-                <i class="fab fa-twitter"></i>
-                <a target="_blank" href="https://twitter.com/untitled-ltd"
-                  >twitter.com/untitled-ltd</a
-                >
-              </li>
-              <li class="contact-list-item">
-                <i class="fab fa-facebook-f"></i>
-                <a target="_blank" href="https://facebook.com/untitled-ltd"
-                  >facebook.com/untitled-ltd</a
-                >
-              </li>
-              <li class="contact-list-item">
-                <i class="fab fa-instagram"></i>
-                <a target="_blank" href="https://instagram.com/untitled-ltd"
-                  >instagram.com/untitled-ltd</a
-                >
-              </li>
-              <li class="contact-list-item">
-                <i class="fas fa-envelope"></i>
-                <a target="_blank" href="mailto:infromation@untitled-ltd"
-                  >infromation@untitled-ltd</a
-                >
-              </li>
-              <li class="contact-list-item address">
-                <i class="fas fa-home"></i>
-                <address>
-                  1234 Somewhere road in Khaniara 4567 <br />Dharamshala, 176218
-                </address>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="padding footer">
-      <div class="wrapper">
-        <small>&copy; Untitled. All rights reseerved. AltCampus</small>
-      </div>
-    </footer>
-  </body>
+        </header>
+
+        <main>
+            <section class="hero flex">
+                <div class="wrapper flex">
+                    <article class="article article1">
+                        <h1>
+                            Welcome to Prism, a free responsive site template by TEMPLATED
+                        </h1>
+                    </article>
+                    <article class="article article2">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elite. Aliquam dolore ad ex vel sed eligendi architecto impedit deserunt suscipit laborum. Quasi praesentium accusantium itaque libero, perspiciatis officia ullam esse dicta.
+                        </p>
+                        <button class="btn hero-btn">GET STARTED</button>
+                    </article>
+                </div>
+            </section>
+
+            <section class="sec-2">
+                <div class="wrapper flex">
+                    <article class="article article1">
+                        <h2>
+                            Manga feugiat adipisicing
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quasi, odio ex non eaque deserunt doloribus voluptatibus, numquam ab praesentium quisquam officiis, consequatur repellat in optio vel ea aspernatur.
+                        </p>
+                        <button class="btn btn1">LEARN MORE</button>
+                    </article>
+                    <article class="article article2">
+                        <ul class="list demo-list">
+                            <li>Ipsum nisl sed curus magna</li>
+                            <li>Amet veroeros sed aliquam consequat</li>
+                            <li>Tempus lorem adipisicing et lorem</li>
+                            <li>Morbi pharetra vitae felis placerat</li>
+                            <li>pharetra nulla risus orci dabipus</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="sec-3">
+                <div class="wrapper flex bg-col">
+                    <img class="image" src="./assets/media/pic01.jpg" alt="">
+                    <article class="img-text">
+                        <h3>Ipsum pharetra tempus</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente reiciendis culpa in assumenda vero doloremque consectetur delectus tenetur et eum.
+                        </p>
+                        <button class="btn btn1">LEARN MORE</button>
+                    </article>
+                </div>
+            </section>
+
+            <section class="sec-3">
+                <div class="wrapper flex bg-col">
+                    <img class="image" src="./assets/media/pic02.jpg" alt="">
+                    <article class="img-text">
+                        <h3>Ipsum pharetra tempus</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente reiciendis culpa in assumenda vero doloremque consectetur delectus tenetur et eum.
+                        </p>
+                        <button class="btn btn1">LEARN MORE</button>
+                    </article>
+                </div>
+            </section>
+
+            <section class="sec-3">
+                <div class="wrapper flex bg-col">
+                    <img class="image" src="./assets/media/pic03.jpg" alt="">
+                    <article class="img-text">
+                        <h3>Ipsum pharetra tempus</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente reiciendis culpa in assumenda vero doloremque consectetur delectus tenetur et eum.
+                        </p>
+                        <button class="btn btn1">LEARN MORE</button>
+                    </article>
+                </div>
+            </section>
+
+            <section class="sec-4 flex">
+                <button class="btn btn1 btn2">IPSUM MAGNA TEMPUS</button>
+            </section>
+
+            <section class="sec-5">
+                <div  class="wrapper flex">
+                    <article class="article article1">
+                        <h2>Orci malesuada</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente reiciendis culpa in assumenda vero doloremque consectetur delectus.
+                        </p>
+
+                        <div class="input-area flex">
+                            <input type="text" name="" id="" placeholder="Name">
+                            <input type="text" name="" id="" placeholder="Email">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button class="btn btn1">SEND MESSAGE</button>
+
+                    </article>
+                    <article class="article article2">
+                        <ul class="list social-list">
+                            <a href="#"><li><i class="fab fa-twitter icon"></i>twitter.com/codeSwastik</li></a>
+                            <a href="#"><li><i class="fab fa-facebook-f icon"></i>facebook.com/swastikyadav</li></a>
+                            <a href="#"><li><i class="fab fa-instagram icon"></i>instagram.com/swastikyadav</li></a>
+                            <a href="#"><li><i class="fas fa-envelope-square icon"></i>i@swastikyadav.com</li></a>
+                            <a href="#"><li><i class="fas fa-home icon"></i>1234 Somewhere Road Suite 9823 <br> Nachville TN 000-000</li></a>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <footer>
+                <p>
+                    &copy; Untiteled. All rights reserved, images: unsplash, Design: TEMPLATED
+                </p>
+            </footer>
+        </main>
+
+        <script src="https://kit.fontawesome.com/3fe1f58858.js"></script>
+    </body>
 </html>
